@@ -11,4 +11,4 @@ Requirements:
 
 
 I'm going to continue working on uncloaking NVMe as well as it seemed like there were spiked interest in that field.
-I'll keep this thread updated when i have a release on NVMe or more information on the subject.
+I'll update this git when i have a release that covers it.
