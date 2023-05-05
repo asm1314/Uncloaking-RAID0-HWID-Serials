@@ -3,16 +3,6 @@
 
 #define IOCTL_SCSI_MINIPORT 0x0004D008
 
-typedef struct _SRB_IO_CONTROL
-{
-	ULONG HeaderLength;
-	UCHAR Signature[8];
-	ULONG Timeout;
-	ULONG ControlCode;
-	ULONG ReturnCode;
-	ULONG Length;
-} SRB_IO_CONTROL;
-
 #define IOCTL_HEADER SRB_IO_CONTROL
 #define INTEL_SIGNATURE "IntelRdp"
 
@@ -25,11 +15,24 @@ typedef struct _SRB_IO_CONTROL
 #define INTEL_FIELD_TYPE_STRING 0x0A
 #define INTEL_FIELD_TYPE_DWORD 0x02
 
+#define MAX_SERIAL_LENGTH 41
+
 typedef struct _INTEL_DICTIONARY_FIELD
 {
 	DWORD Id;
 	DWORD Type;
 } INTEL_DICTIONARY_FIELD;
+
+typedef struct _SRB_IO_CONTROL
+{
+	ULONG HeaderLength;
+	UCHAR Signature[8];
+	ULONG Timeout;
+	ULONG ControlCode;
+	ULONG ReturnCode;
+	ULONG Length;
+} SRB_IO_CONTROL;
+
 
 typedef struct _INTEL_SERIALS_REQUEST
 {
@@ -42,8 +45,6 @@ typedef struct _INTEL_SERIALS_REQUEST
 	INTEL_DICTIONARY_FIELD Fields[2]; // 
 	UCHAR bDataBuffer[1];             // 
 } INTEL_SERIALS_REQUEST, * PINTEL_SERIALS_REQUEST;
-
-#define MAX_SERIAL_LENGTH 41
 
 
 void
