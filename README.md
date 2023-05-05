@@ -5,6 +5,7 @@ Test system:
 - Intel core processor
 - 2 x SATA drives
 - 2 x NVMe drives
+- Windows 10 & 11 22H2 (all should be supported)
 
 Requirements:
 1. Your computer must be set up for NVMe or SATA RAID (or both).
