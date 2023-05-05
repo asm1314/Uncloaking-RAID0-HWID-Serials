@@ -4,11 +4,8 @@ This is a demonstration of how anti-cheats are evolving to gather the original d
 Test system:
 - Intel core processor
 - 2 x SATA drives
+- 2 x NVMe drives
 
 Requirements:
-1. Your computer must be set up for RAID.
+1. Your computer must be set up for NVMe or SATA RAID (or both).
 2. Run as Administrator.
-
-
-I'm going to continue working on uncloaking NVMe as well as it seemed like there were spiked interest in that field.
-I'll update this git when i have a release that covers it in full.
