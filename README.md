@@ -1,5 +1,5 @@
 # Uncloaking-RAID0-HWID-Serials
-This is a demonstration of how anti-cheats are evolving to gather the original disk serials hidden behind RAID0.
+This is a demonstration of how easily real disk serials hidden behind NVMe and SATA RAID can be fetched.
 
 Test system:
 - Intel core processor
