@@ -1,5 +1,6 @@
 # Uncloaking-RAID0-HWID-Serials
-This is a demonstration of how easily real disk serials hidden behind NVMe and SATA RAID can be fetched.
+RAID0 has been the go-to method for years to avoid hardware ID (HWID) checks in anti-cheat systems.
+This is a demonstration of how easily real disk serials hidden behind NVMe and SATA RAID can be fetched, and may not be as secure as people may think.
 
 Test system:
 - Intel core processor
