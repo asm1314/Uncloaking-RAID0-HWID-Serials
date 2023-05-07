@@ -10,3 +10,7 @@ Test system:
 Requirements:
 1. Your computer must be set up for NVMe or SATA RAID (or both).
 2. Run as Administrator.
+
+
+
+![raid0_serial_fetch](https://user-images.githubusercontent.com/132104669/236675038-2f21b07b-94bb-4063-a978-8992dbcceb89.png)
